@@ -107,6 +107,12 @@ p {
   text-decoration: underline;
 }
 
+
+.profilePicture {
+    display: flex;
+    justify-content: center;
+}
+
 @media (max-width: 375px) {
 
   .small-photo {
@@ -140,6 +146,10 @@ h1 {
   .col-6 {
     margin-top: -85px;
     width:100%;		
+  }
+
+ 
+
   }
 }
 
