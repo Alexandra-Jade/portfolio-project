@@ -122,8 +122,19 @@ p {
 }
 .firstCardBody {
     background: linear-gradient(180.6deg, #b384ec 40.5%, #f6f3ff 90.2%);
+}
 
+.secondCardBody {
+    background: linear-gradient(180.6deg, #feca91 40.5%, #f6f3ff 90.2%);
+     border-radius: 20px;
 
+}
+
+.contactButton {
+    position: relative;
+    margin-left: 1005px;
+    margin-top: -115px;
+    width: 15px 20px;
 }
 @media (max-width: 375px) {
 
