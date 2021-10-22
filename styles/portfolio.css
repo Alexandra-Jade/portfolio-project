@@ -46,6 +46,13 @@ p {
   text-transform: capitalize;
 }
 
+
+.ChatImage {
+    margin-left: 260px;
+    margin-top: -86px;
+    color: red;
+    font-size: 16px;
+  }
    
 @media (min-width: 360px) {
   .ChatImage {
@@ -116,9 +123,9 @@ p {
 
 @media (min-width: 1280px) {
   .ChatImage {
-    margin-left: 923px;
-    margin-top: -184px;
+    margin-left: 1037px;
+    margin-top: -204px;
     color: white;
-    font-size: 60px;
+    font-size: 70px;
   }
 }
