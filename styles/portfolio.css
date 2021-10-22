@@ -67,6 +67,13 @@ background: linear-gradient(360.4deg, rgb(252, 252, 252) 30.5%, #9e81e6 76.2%);
 text-align: center;
   }
 
+  .backgroundOne {
+
+    background: linear-gradient(360.4deg, rgb(252, 252, 252) 30.5%, #9e81e6 76.2%);    
+
+
+  }
+
 
 @media (min-width: 360px) {
   .ChatImage {
@@ -158,10 +165,22 @@ h6 {
     color: white;
     font-size: 38px;
   }
+  h1 {
+  font-size: 80px;
+  margin-bottom: 20px;
+}
 
+h2 {
+  font-size: 60px;
+}
+
+h3 {
+  font-size: 45px;
+}
   h6 {
-  margin-left: 80px;
-  margin-right: 80px;
+    font-size: 24px;
+  margin-left: 50px;
+  margin-right: 50px;
   text-align:left;
 }
 
@@ -173,10 +192,25 @@ h6 {
     font-size: 49px;
   }
 
+  h1 {
+  font-size: 100px;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 60px;
+}
+
+h3 {
+  font-size: 45px;
+}
+
   h6 {
-  margin-left: 100px;
-  margin-right: 100px;
-  text-align:left;
+    font-size: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
 }
 
 @media (min-width: 1280px) {
@@ -202,6 +236,13 @@ h1 {
 h2 {
   font-size: 80px;
   padding-top: 60px;
+}
+
+h3 {
+  font-size: 50px;
+  margin-left: 150px;
+  margin-right: 150px;
+
 }
 
 h6 {
