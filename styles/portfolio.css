@@ -47,13 +47,22 @@ p {
 }
 
 
-.ChatImage {
-    margin-left: 260px;
-    margin-top: -86px;
-    color: red;
-    font-size: 16px;
+.ChatImage a{
+    color: white;
+    
   }
+
+  .ChatImage hover{
+    color: purple;
    
+  }
+ 
+  .hero {
+background: linear-gradient(360.4deg, rgb(253, 240, 233) 30.5%, #9e81e6 76.2%);    
+text-align: center;
+  }
+ 
+
 @media (min-width: 360px) {
   .ChatImage {
     margin-left: 260px;
@@ -76,7 +85,7 @@ p {
 
 @media (min-width: 411px) {
 .ChatImage {
-    margin-left: 296px;
+    margin-left: 298px;
     margin-top: -91px;
     color: white;
     font-size: 20px;
@@ -123,9 +132,17 @@ p {
 
 @media (min-width: 1280px) {
   .ChatImage {
-    margin-left: 1037px;
-    margin-top: -204px;
+    margin-left: 1034px;
+    margin-top: -200px;
     color: white;
     font-size: 70px;
   }
+
+  .profilePic {
+  margin-left: 50px;
+  margin-top:-60px;
+  margin-bottom: 0px;
+  width: 95%;
 }
+
+
