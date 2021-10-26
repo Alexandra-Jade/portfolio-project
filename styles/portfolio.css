@@ -97,6 +97,14 @@ text-align: center;
     margin:50px;
   }
 
+  .about-section-photo {
+    width: 850px;
+    padding-right: 100px;
+
+
+
+  }
+
 
 @media (min-width: 360px) {
   .ChatImage {
