@@ -74,6 +74,29 @@ text-align: center;
 
   }
 
+  .about-section {
+    padding:20px 50px;
+  }
+
+  .about-section h1 {
+    font-size:44px;
+    line-height:1.5;
+  }
+
+  .about-section h2 {
+    font-size:34px;
+    line-height:1;
+  } 
+
+  .about-section p {
+    font-size:18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+  .about-section-content {
+    margin:50px;
+  }
+
 
 @media (min-width: 360px) {
   .ChatImage {
@@ -123,6 +146,8 @@ h2 {
     font-size: 20px;
   }
 
+
+
   h6 {
   margin-left: 30px;
   margin-right: 30px;
@@ -139,6 +164,8 @@ h2 {
     font-size: 18px;
   }
 
+ 
+
   h6 {
   margin-left: 10px;
   margin-right: 10px;
@@ -152,6 +179,8 @@ h2 {
     color: white;
     font-size: 27px;
   }
+   
+
 h6 {
   margin-left: 30px;
   margin-right: 30px;
@@ -165,6 +194,8 @@ h6 {
     color: white;
     font-size: 38px;
   }
+
+
   h1 {
   font-size: 80px;
   margin-bottom: 20px;
@@ -249,5 +280,4 @@ h6 {
   margin-left: 350px;
   margin-right: 350px;
   text-align:left;
-}
 }
