@@ -131,14 +131,19 @@ background: var(--primary-color);
   text-transform: capitalize;
 }
 
+.ChatImage {
+  margin-left: 538px;
+  margin-top: -85px; 
+  font-size: 40px;
+}
 
 .ChatImage a{
     color: white;
     
   }
 
-  .ChatImage hover{
-    color: purple;
+  .ChatImage a:hover{
+    color: #feca91;
    
   }
  
@@ -182,9 +187,6 @@ text-align: center;
     padding-right: 100px;
   }
 
-  .content-box {
-    width: 535px;
-  }
 
   @media (max-width: 900px) {
 
@@ -195,10 +197,15 @@ text-align: center;
 
   h2 {
     font-size: 44px;
+    padding: 0;
+
   }
 
   h5 {
-    margin: 30px;
+    margin-top: 100px;
+    padding:0;
+    font-size: 34px;
+    margin-bottom: 100px;
   }
   .hero {
     padding: 80px 20px;
@@ -219,4 +226,16 @@ text-align: center;
     text-align: center;
     margin: 0;
   }
+
+  .skillList {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  .content-container-photo {
+     width: 100%;
+    padding: 0px;
+    margin-bottom:30px;
+  }
+
 }
